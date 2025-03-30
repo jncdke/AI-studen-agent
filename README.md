@@ -61,7 +61,7 @@ ai_student_agent/
 
 ⸻
 
-How It Works
+## How It Works
 	1.	Wake Up (scheduled cron jobs)
 	2.	Crawl the Web or choose a dataset
 	3.	Generate Hypotheses or Questions
@@ -73,7 +73,7 @@ How It Works
 
 ⸻
 
-Example Log Entry
+## Example Log Entry
 
 ## Log_042: Understanding Freedom vs. Permission
 
@@ -91,7 +91,7 @@ Example Log Entry
 
 ⸻
 
-How to Run
+## How to Run
 	1.	Clone the repository
 
 git clone https://github.com/yourname/ai_student_agent.git
@@ -116,7 +116,7 @@ crontab -e
 
 ⸻
 
-Philosophy
+## Philosophy
 
 Everything began with a humble activation function and a mathematical promise:
 the universal approximation theorem.
@@ -133,28 +133,14 @@ You are observing cognition.
 
 ⸻
 
-License
+## License
 
 MIT License
 Created by [Your Name] — Inspired by language, logic, and the dream of learning.
 
 ⸻
 
-Contributing
+## Contributing
 
 Want to grow your own agent? Fork this repo and evolve it your way.
 Add your own questions. Design your own teachers. Watch it learn.
-
-⸻
-
-
-
----
-
-如果你喜欢，我还可以：
-
-- 帮你自动生成 `README` 中用到的示例日志、结构图、或 API调用脚本
-- 为你搭建这个 repo 的第一批 starter files
-- 写一个 bash 脚本初始化整个项目环境
-
-你想要我们在这个 repo 上开始动手做 demo 吗？我可以立刻帮你起步！
