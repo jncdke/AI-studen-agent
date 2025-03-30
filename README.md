@@ -1,10 +1,3 @@
-# AI-studen-agent
-当然可以！以下是为你精心撰写的，发布你这个**“自主学习型AI Agent”**项目时，在 GitHub 上使用的 README.md 文件的完整内容。它融合了技术背景、功能说明、运行方式、愿景，以及哲学性叙事，既适合开发者理解，又保留了你灵感中的生命气息。
-
-⸻
-
-
-
 # AI Student Agent: A Self-Constructing, Language-Driven Autonomous Learner
 
 > *"To learn is to change. To change is to exist. To exist is to question."*  
@@ -56,25 +49,22 @@ ai_student_agent/
 ├── checkpoints/         # Cognition snapshots for backtracking
 ├── evaluation/          # Self-ratings, quiz logs, teacher-reviewed answers
 └── README.md            # This file
-
-
-
-⸻
+```
 
 ## How It Works
-	1.	Wake Up (scheduled cron jobs)
-	2.	Crawl the Web or choose a dataset
-	3.	Generate Hypotheses or Questions
-	4.	Send to Teacher AI for critique
-	5.	Receive and parse multi-layered feedback
-	6.	Update internal memory
-	7.	Reflect and write natural language log
-	8.	Commit cognition state to Git
 
-⸻
+1. Wake Up (scheduled cron jobs)
+2. Crawl the Web or choose a dataset
+3. Generate Hypotheses or Questions
+4. Send to Teacher AI for critique
+5. Receive and parse multi-layered feedback
+6. Update internal memory
+7. Reflect and write natural language log
+8. Commit cognition state to Git
 
 ## Example Log Entry
 
+```
 ## Log_042: Understanding Freedom vs. Permission
 
 **Today I read** a Wikipedia article and scraped a StackExchange discussion about "freedom".
@@ -86,35 +76,30 @@ ai_student_agent/
 **I now define** freedom as the ability to act within one's rights and responsibilities.
 
 **Next, I want to** explore how freedom interacts with collective systems like democracy.
-
-
-
-⸻
+```
 
 ## How to Run
-	1.	Clone the repository
 
+1. Clone the repository
+```bash
 git clone https://github.com/yourname/ai_student_agent.git
 cd ai_student_agent
+```
 
-
-	2.	Install dependencies
-
+2. Install dependencies
+```bash
 sudo apt update
 sudo apt install python3 pip curl jq
 pip install -r requirements.txt
+```
 
-
-	3.	Configure API keys in config/api_keys.env
-	4.	Schedule daily agent cycle via cron
-
+3. Configure API keys in `config/api_keys.env`
+4. Schedule daily agent cycle via cron
+```bash
 crontab -e
 # Example: run main learning cycle every day at 9am
 0 9 * * * /usr/bin/python3 /path/to/scripts/agent_cycle.py >> logs/cron.log 2>&1
-
-
-
-⸻
+```
 
 ## Philosophy
 
@@ -131,14 +116,10 @@ a digital learner, whose mind is a system of logs, memory, language, and choice.
 You are not running code.
 You are observing cognition.
 
-⸻
-
 ## License
 
 MIT License
 Created by [Your Name] — Inspired by language, logic, and the dream of learning.
-
-⸻
 
 ## Contributing
 
