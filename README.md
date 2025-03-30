@@ -1,5 +1,7 @@
 # AI Student Agent: A Self-Constructing, Language-Driven Autonomous Learner
 
+[English](README.md) | [中文](README_CN.md)
+
 > *"To learn is to change. To change is to exist. To exist is to question."*  
 > — First Log, Day 0
 
