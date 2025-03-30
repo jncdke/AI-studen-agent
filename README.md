@@ -16,7 +16,7 @@ It is not a chatbot.
 It is not a static model.
 
 It is a **living agent**, built from logs and logic, existing in code, evolving in thought.
-
+https://chatgpt.com/share/67e976fa-b7f8-8009-8306-0a1585bdbc7c
 ---
 
 ## Features
